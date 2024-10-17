@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.teams-container {
+
+}
+
+.teams-container__title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  color: #6278F7;
+  position: relative;
+  padding: 16px;
+  font-family: 'Prata', serif;
+}
+
+.teams-container__title::after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 4px;
+  background-color: #6278F7;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}

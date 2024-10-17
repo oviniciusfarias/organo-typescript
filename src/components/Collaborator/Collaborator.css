@@ -1,0 +1,78 @@
+.collaborator {
+  width: 280px;
+  position: relative;
+}
+
+.collaborator__delete {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  border-radius: 50%;
+  border: 1px solid #6278F7;
+  background-color: white;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  color: #6278F7;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collaborator__delete:hover {
+  background-color: #6278F7;
+  color: white;
+}
+
+.collaborator__header {
+  background-color: #f0f0f0;
+  border-radius: 10px 10px 0px 0px;
+  box-sizing: border-box;
+}
+
+.collaborator__image {
+  border-radius: 50%;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  bottom: -50px;
+}
+
+.collaborator__footer {
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 65px;
+  padding-bottom: 40px;
+  min-height: 200px;
+  box-sizing: border-box;
+}
+
+.collaborator__name {
+  color: #6278F7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 12px 0;
+  line-height: 22px;
+}
+
+.collaborator__position {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.favorite {
+  margin-top: 20px;
+}
+
+.favorite button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
